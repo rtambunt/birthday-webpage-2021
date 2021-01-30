@@ -1,0 +1,25 @@
+{
+  "name": "chiena-birthday-webpage-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtambunt/chiena-birthday-webpage-2021.git"
+  },
+  "author": "Robbie Tambunting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtambunt/chiena-birthday-webpage-2021/issues"
+  },
+  "homepage": "https://github.com/rtambunt/chiena-birthday-webpage-2021#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
