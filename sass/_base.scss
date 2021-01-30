@@ -1,3 +1,5 @@
+// font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+
 /* COLORS
 
 MINT GREEN: c6ebc9
@@ -11,34 +13,34 @@ CREAM: f0e5d8
 ORANGE: ffc478
 
 */
+
 :root {
   --color-primary: #75cfb8;
   --color-primary-light: #bbdfc8;
+
   --color-grey-light: rgb(238, 238, 238);
-  --color-grey-dark: rgb(36, 36, 36); }
+  --color-grey-dark: rgb(36, 36, 36);
+}
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--color-grey-light); }
-
-.header {
-  max-width: 120rem;
-  margin: 5rem auto;
-  min-height: 50rem;
-  background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-light));
-  background-size: cover; }
+  color: var(--color-grey-light);
+}
