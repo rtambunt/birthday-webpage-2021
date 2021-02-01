@@ -2,16 +2,21 @@
 
 const headingPrimary = document.querySelector(".heading-primary");
 
-const typeWriter = function (i, domObj, speed) {
-  console.log(domObj);
-  const txt = domObj.textContent;
+// let i = 0;
+
+const typeWriterHeading = function (i) {
+  const speed = 120;
+  const txt = "Happy Birthday Chiena!";
   if (i < txt.length) {
-    domObj.innerHTML += txt.charAt(i);
+    headingPrimary.innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+
+    setTimeout(function () {
+      typeWriterHeading(i);
+    }, speed);
   }
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-  typeWriter(0, headingPrimary, 50);
+  typeWriterHeading(0);
 });
