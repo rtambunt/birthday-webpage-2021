@@ -59,3 +59,30 @@ body {
   background-color: #eeecec; }
   .main p {
     padding: 0 4rem; }
+
+.footer {
+  height: 100%;
+  width: 95vw;
+  margin: auto;
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: #5e5e5e; }
+  .footer a:link,
+  .footer a:visited {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s; }
+  .footer a:hover,
+  .footer a:active {
+    background-color: #f0e5d8; }
