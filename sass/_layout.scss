@@ -1,7 +1,7 @@
 .header {
-  height: 95vh;
-  width: 95vw;
-  margin: 5rem auto;
+  // height: 95vh;
+  // width: 95vw;
+  // margin: 5rem auto;
 
   background-image: linear-gradient(
     /* to right bottom, */ var(--color-primary),
@@ -20,15 +20,11 @@
 }
 
 .main {
-  height: 100%;
-  width: 95vw;
-  margin: auto;
   padding: 4rem 0;
-
   font-size: 2rem;
   font-weight: 600;
   color: var(--color-grey-dark);
-  //   background-image: linear-gradient(#ffc478, #fcd4a0);
+  // background-image: linear-gradient(#ffc478, #fcd4a0);
   background-color: rgb(238, 236, 236);
 
   p {
@@ -37,6 +33,7 @@
 }
 
 .footer {
+  visibility: hidden; /* Temporary!! */
   height: 100%;
   width: 95vw;
   margin: 5rem auto;

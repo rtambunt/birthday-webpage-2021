@@ -36,10 +36,23 @@ body {
   line-height: 1.6;
   color: var(--color-grey-light); }
 
+.slider {
+  height: 70rem;
+  width: 100rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+  .slider__slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s; }
+
 .header {
-  height: 95vh;
-  width: 95vw;
-  margin: 5rem auto;
   background-image: linear-gradient(var(--color-primary), var(--color-primary-light));
   background-size: cover;
   display: flex;
@@ -50,9 +63,6 @@ body {
     cursor: default; }
 
 .main {
-  height: 100%;
-  width: 95vw;
-  margin: auto;
   padding: 4rem 0;
   font-size: 2rem;
   font-weight: 600;
@@ -62,6 +72,8 @@ body {
     padding: 0 4rem; }
 
 .footer {
+  visibility: hidden;
+  /* Temporary!! */
   height: 100%;
   width: 95vw;
   margin: 5rem auto;

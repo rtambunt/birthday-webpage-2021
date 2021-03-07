@@ -2,8 +2,7 @@
 
 const headingPrimary = document.querySelector(".header__heading-primary");
 
-// let i = 0;
-
+// Auto-type
 const typeWriterHeading = function (i) {
   const speed = 120;
   const txt = "Happy Birthday Ina!";
@@ -27,8 +26,20 @@ headingPrimary.addEventListener("click", function () {
   typeWriterHeading(0);
 });
 
+// Cursor style
 headingPrimary.addEventListener("mouseover", function () {
   if (headingPrimary.innerHTML !== "Happy Birthday Ina!")
     headingPrimary.style.cursor = "default";
   else headingPrimary.style.cursor = "pointer";
 });
+
+// Slider Component
+const slider = function () {
+  const slides = document.querySelectorAll(".slider__slide");
+
+  const goToSlide = function () {
+    slides.forEach((s, i) => (s.style.transform = `translateX(${100 * i}%)`));
+  };
+  goToSlide();
+};
+slider();
