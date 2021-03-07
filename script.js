@@ -1,6 +1,6 @@
 "use strict";
 
-const headingPrimary = document.querySelector(".heading-primary");
+const headingPrimary = document.querySelector(".header__heading-primary");
 
 // let i = 0;
 
@@ -19,4 +19,16 @@ const typeWriterHeading = function (i) {
 
 document.addEventListener("DOMContentLoaded", function () {
   typeWriterHeading(0);
+});
+
+headingPrimary.addEventListener("click", function () {
+  if (headingPrimary.innerHTML !== "Happy Birthday Ina!") return;
+  headingPrimary.innerHTML = "";
+  typeWriterHeading(0);
+});
+
+headingPrimary.addEventListener("mouseover", function () {
+  if (headingPrimary.innerHTML !== "Happy Birthday Ina!")
+    headingPrimary.style.cursor = "default";
+  else headingPrimary.style.cursor = "pointer";
 });

@@ -45,8 +45,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .header__text-box h1 {
-    font-size: 3.6rem; }
+  .header__heading-primary {
+    font-size: 3.6rem;
+    cursor: default; }
 
 .main {
   height: 100%;
