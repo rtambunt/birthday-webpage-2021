@@ -1,3 +1,11 @@
+.wrapper {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
   // height: 95vh;
   // width: 95vw;
@@ -20,12 +28,13 @@
 }
 
 .main {
-  padding: 4rem 0;
+  padding: 4rem 4.5rem;
   font-size: 2rem;
   font-weight: 600;
   color: var(--color-grey-dark);
-  // background-image: linear-gradient(#ffc478, #fcd4a0);
+  // background-image: linear-gradient(#78ceff, #a0f1fc);
   background-color: rgb(238, 236, 236);
+  z-index: 2;
 
   p {
     padding: 0 4rem;
@@ -33,15 +42,13 @@
 }
 
 .footer {
-  visibility: hidden; /* Temporary!! */
-  height: 100%;
-  width: 95vw;
-  margin: 5rem auto;
-  padding: 4rem 0;
-  text-align: center;
+  // visibility: hidden; /* Temporary!! */
   font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-color: rgb(94, 94, 94);
+  background-color: rgb(68, 68, 68);
 
   a:link,
   a:visited {
