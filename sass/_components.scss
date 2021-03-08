@@ -17,9 +17,46 @@
     -moz-transition: transform 1s;
     -ms-transition: transform 1s;
     -o-transition: transform 1s;
+  }
 
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
+  &__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+
+    background-color: rgba(238, 238, 238, 0.6);
+    color: var(--color-grey-dark);
+    font-family: "Quicksand";
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 1.3rem 1.5rem;
+
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+
+    &--left {
+      left: 5%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      // transform allows us to use center point for positioning
+    }
+
+    &--right {
+      right: 5%;
+      transform: translate(50%, -50%);
+      -webkit-transform: translate(50%, -50%);
+      -moz-transform: translate(50%, -50%);
+      -ms-transform: translate(50%, -50%);
+      -o-transform: translate(50%, -50%);
+    }
   }
 }
