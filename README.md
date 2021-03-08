@@ -1,4 +1,4 @@
-# birthday-webpage-2021
+# birthday-webpage
 
 Icons made by Freepik (https://www.freepik.com) from
 Flaticon (www.flaticon.com)
