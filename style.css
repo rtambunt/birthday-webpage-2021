@@ -102,6 +102,10 @@ body {
       .slider__btn {
         font-size: 1.3rem;
         padding: 0.8rem 0.9rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .slider__btn {
+        font-size: 0.66rem;
+        padding: 0.5rem 0.55rem; } }
     .slider__btn--left {
       left: 5%;
       transform: translate(-50%, -50%);
@@ -109,6 +113,9 @@ body {
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%); }
+      @media only screen and (max-width: 31.25em) {
+        .slider__btn--left {
+          left: 6%; } }
     .slider__btn--right {
       right: 5%;
       transform: translate(50%, -50%);
@@ -116,6 +123,9 @@ body {
       -moz-transform: translate(50%, -50%);
       -ms-transform: translate(50%, -50%);
       -o-transform: translate(50%, -50%); }
+      @media only screen and (max-width: 31.25em) {
+        .slider__btn--right {
+          right: 6%; } }
 
 .dots {
   position: absolute;
@@ -147,6 +157,9 @@ body {
         height: 0.7rem;
         width: 0.7rem;
         margin-right: 1.2rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .dots__dot {
+        margin-right: 1rem; } }
     .dots__dot--active {
       background-color: white; }
 
@@ -173,6 +186,12 @@ body {
     @media only screen and (max-width: 81.25em) {
       .header__heading-primary {
         font-size: 2.9rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .header__heading-primary {
+        font-size: 1.9rem; } }
+    @media only screen and (max-width: 21.88em) {
+      .header__heading-primary {
+        font-size: 1.8rem; } }
 
 .main {
   padding: 4rem 4.5rem;
@@ -193,8 +212,17 @@ body {
   @media only screen and (max-width: 44em) {
     .main {
       font-size: 1.1rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .main {
+      font-size: 0.9rem; } }
+  @media only screen and (max-width: 21.88em) {
+    .main {
+      font-size: 8px; } }
   .main p {
     width: 90%; }
+    @media only screen and (max-width: 31.25em) {
+      .main p {
+        width: 100%; } }
 
 .footer {
   font-size: 1.3rem;
@@ -224,6 +252,11 @@ body {
       .footer a:visited {
         font-size: 1rem;
         padding: 0.8rem 1rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .footer a:link,
+      .footer a:visited {
+        font-size: 8px;
+        padding: 0.6rem 0.9rem; } }
   .footer a:hover,
   .footer a:active {
     background-color: #f0e7ed; }

@@ -80,6 +80,11 @@
       padding: 0.8rem 0.9rem;
     }
 
+    @media only screen and (max-width: $bp-small) {
+      font-size: 0.66rem;
+      padding: 0.5rem 0.55rem;
+    }
+
     &--left {
       left: 5%;
       transform: translate(-50%, -50%);
@@ -88,6 +93,10 @@
       -ms-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       // transform allows us to use center point for positioning
+
+      @media only screen and (max-width: $bp-small) {
+        left: 6%;
+      }
     }
 
     &--right {
@@ -97,6 +106,10 @@
       -moz-transform: translate(50%, -50%);
       -ms-transform: translate(50%, -50%);
       -o-transform: translate(50%, -50%);
+
+      @media only screen and (max-width: $bp-small) {
+        right: 6%;
+      }
     }
   }
 }
@@ -131,6 +144,10 @@
       height: 0.7rem;
       width: 0.7rem;
       margin-right: 1.2rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      margin-right: 1rem;
     }
 
     /* Only necessary when overlying images */
