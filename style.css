@@ -51,6 +51,22 @@ body {
     .slider {
       height: 48rem;
       width: 80rem; } }
+  @media only screen and (max-width: 62.5em) {
+    .slider {
+      height: 40rem;
+      width: 60rem; } }
+  @media only screen and (max-width: 44em) {
+    .slider {
+      height: 40rem;
+      width: 45rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .slider {
+      height: 45rem;
+      width: 30rem; } }
+  @media only screen and (max-width: 21.88em) {
+    .slider {
+      height: 45rem;
+      width: 25rem; } }
   .slider__slide {
     height: 100%;
     width: 100%;

@@ -18,6 +18,26 @@
     width: 80rem;
   }
 
+  @media only screen and (max-width: $bp-large) {
+    height: 40rem;
+    width: 60rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    height: 40rem;
+    width: 45rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    height: 45rem;
+    width: 30rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    height: 45rem;
+    width: 25rem;
+  }
+
   &__slide {
     height: 100%;
     width: 100%;
