@@ -54,8 +54,12 @@
     font-size: 1.6rem;
   }
 
-  @media only screen and (max-width: $bp-largest) {
+  @media only screen and (max-width: $bp-large) {
     font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.1rem;
   }
 
   p {

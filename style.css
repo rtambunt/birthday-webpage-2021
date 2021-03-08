@@ -187,9 +187,12 @@ body {
   @media only screen and (max-width: 81.25em) {
     .main {
       font-size: 1.6rem; } }
-  @media only screen and (max-width: 81.25em) {
+  @media only screen and (max-width: 62.5em) {
     .main {
       font-size: 1.2rem; } }
+  @media only screen and (max-width: 44em) {
+    .main {
+      font-size: 1.1rem; } }
   .main p {
     width: 90%; }
 
