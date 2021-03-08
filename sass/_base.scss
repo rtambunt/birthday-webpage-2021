@@ -15,12 +15,20 @@ ORANGE: ffc478
 */
 
 :root {
+  // COLORS
   --color-primary: #f597be;
   --color-primary-light: #fdc0da;
 
   --color-grey-light: rgb(238, 238, 238);
   --color-grey-dark: rgb(36, 36, 36);
+
+  // --bp-largest: 81.25em; // 1300px
+  // Able to use CSS variables for media queries?
 }
+
+// // RESPONSIVE BREAKPOINTS
+$bp-largest: 81.25em; // 1300px
+$bp-large: 62.5em; // 1000px
 
 * {
   margin: 0;
@@ -35,7 +43,7 @@ ORANGE: ffc478
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 62.5%; // 1rem = 16px
 }
 
 body {

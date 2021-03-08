@@ -20,7 +20,6 @@
   // height: 95vh;
   // width: 95vw;
   // margin: 5rem auto;
-
   background-image: linear-gradient(
     /* to right bottom, */ var(--color-primary),
     var(--color-primary-light)
@@ -34,6 +33,10 @@
   &__heading-primary {
     font-size: 3.6rem;
     cursor: default;
+
+    @media only screen and (max-width: $bp-largest) {
+      font-size: 2.9rem;
+    }
   }
 }
 
@@ -45,6 +48,10 @@
   // background-image: linear-gradient(#78ceff, #a0f1fc);
   background-color: rgb(238, 236, 236);
   z-index: 2;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 1.6rem;
+  }
 
   p {
     padding: 0 4rem;
