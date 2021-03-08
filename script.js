@@ -4,7 +4,7 @@ const headingPrimary = document.querySelector(".header__heading-primary");
 
 // Auto-type
 const typeWriterHeading = function (i) {
-  const speed = 120;
+  const speed = 145;
   const txt = "Happy Birthday Ina!";
   if (i < txt.length) {
     headingPrimary.innerHTML += txt.charAt(i);
@@ -95,6 +95,11 @@ const slider = function () {
   // Event Handlers
   btnRight.addEventListener("click", nextSlide);
   btnLeft.addEventListener("click", prevSlide);
+
+  document.addEventListener("keydown", function (e) {
+    e.key === "ArrowRight" && nextSlide();
+    e.key === "ArrowLeft" && prevSlide();
+  });
 
   dotContainer.addEventListener("click", function (e) {
     if (e.target.classList.contains("dots__dot")) {

@@ -1,6 +1,14 @@
 .wrapper {
   height: 100vh;
   width: 100vw;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../img/giraffe-background.png);
+  background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -45,17 +53,18 @@
 
 .footer {
   // visibility: hidden; /* Temporary!! */
-  font-size: 1.4rem;
+  font-size: 1.3em;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(66, 66, 66);
 
   a:link,
   a:visited {
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 1.1rem 2.1rem;
     background-color: white;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -71,6 +80,6 @@
 
   a:hover,
   a:active {
-    background-color: #f0e5d8;
+    background-color: #f0e7ed;
   }
 }
