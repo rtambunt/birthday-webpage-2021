@@ -17,9 +17,6 @@
 }
 
 .header {
-  // height: 95vh;
-  // width: 95vw;
-  // margin: 5rem auto;
   background-image: linear-gradient(
     /* to right bottom, */ var(--color-primary),
     var(--color-primary-light)
@@ -49,12 +46,16 @@
   background-color: rgb(238, 236, 236);
   z-index: 2;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   @media only screen and (max-width: $bp-largest) {
     font-size: 1.6rem;
   }
 
   p {
-    padding: 0 4rem;
+    width: 90%;
   }
 }
 

@@ -33,7 +33,7 @@ html {
 body {
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--color-grey-light); }
 
 .slider {
@@ -171,12 +171,15 @@ body {
   font-weight: 600;
   color: var(--color-grey-dark);
   background-color: #eeecec;
-  z-index: 2; }
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   @media only screen and (max-width: 81.25em) {
     .main {
       font-size: 1.6rem; } }
   .main p {
-    padding: 0 4rem; }
+    width: 90%; }
 
 .footer {
   font-size: 1.3em;
