@@ -40,15 +40,16 @@ body {
   height: 70rem;
   width: 100rem;
   position: relative;
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+  box-shadow: 0rem 1.125rem 4.125rem rgba(0, 0, 0, 0.3);
   overflow: hidden; }
   .slider__slide {
     height: 100%;
     width: 100%;
-    border-radius: 1.4rem;
-    -webkit-border-radius: 1.4rem;
-    -moz-border-radius: 1.4rem;
-    -ms-border-radius: 1.4rem;
-    -o-border-radius: 1.4rem;
     position: absolute;
     transition: transform 1s;
     -webkit-transition: transform 1s;
