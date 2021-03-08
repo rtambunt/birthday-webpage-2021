@@ -98,6 +98,10 @@ body {
       .slider__btn {
         font-size: 1.8rem;
         padding: 1rem 1.2rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .slider__btn {
+        font-size: 1.3rem;
+        padding: 0.8rem 0.9rem; } }
     .slider__btn--left {
       left: 5%;
       transform: translate(-50%, -50%);
@@ -138,6 +142,11 @@ body {
         height: 0.8rem;
         width: 0.8rem;
         margin-right: 1.4rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .dots__dot {
+        height: 0.7rem;
+        width: 0.7rem;
+        margin-right: 1.2rem; } }
     .dots__dot--active {
       background-color: white; }
 
@@ -178,19 +187,23 @@ body {
   @media only screen and (max-width: 81.25em) {
     .main {
       font-size: 1.6rem; } }
+  @media only screen and (max-width: 81.25em) {
+    .main {
+      font-size: 1.2rem; } }
   .main p {
     width: 90%; }
 
 .footer {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 700;
+  background-color: #424242;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #424242; }
+  align-items: center; }
   .footer a:link,
   .footer a:visited {
     text-decoration: none;
+    color: var(--color-grey-dark);
     padding: 1.1rem 2.1rem;
     background-color: white;
     border-radius: 50px;
@@ -203,6 +216,11 @@ body {
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s; }
+    @media only screen and (max-width: 62.5em) {
+      .footer a:link,
+      .footer a:visited {
+        font-size: 1rem;
+        padding: 0.8rem 1rem; } }
   .footer a:hover,
   .footer a:active {
     background-color: #f0e7ed; }

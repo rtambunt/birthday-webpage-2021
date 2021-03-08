@@ -54,24 +54,28 @@
     font-size: 1.6rem;
   }
 
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 1.2rem;
+  }
+
   p {
     width: 90%;
   }
 }
 
 .footer {
-  // visibility: hidden; /* Temporary!! */
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 700;
+  background-color: rgb(66, 66, 66);
+
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(66, 66, 66);
-
   a:link,
   a:visited {
     text-decoration: none;
+    color: var(--color-grey-dark);
     padding: 1.1rem 2.1rem;
     background-color: white;
     border-radius: 50px;
@@ -84,6 +88,11 @@
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
+
+    @media only screen and (max-width: $bp-large) {
+      font-size: 1rem;
+      padding: 0.8rem 1rem;
+    }
   }
 
   a:hover,

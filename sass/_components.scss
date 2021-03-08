@@ -75,6 +75,11 @@
       padding: 1rem 1.2rem;
     }
 
+    @media only screen and (max-width: $bp-large) {
+      font-size: 1.3rem;
+      padding: 0.8rem 0.9rem;
+    }
+
     &--left {
       left: 5%;
       transform: translate(-50%, -50%);
@@ -120,6 +125,12 @@
       height: 0.8rem;
       width: 0.8rem;
       margin-right: 1.4rem;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      height: 0.7rem;
+      width: 0.7rem;
+      margin-right: 1.2rem;
     }
 
     /* Only necessary when overlying images */
