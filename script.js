@@ -5,7 +5,7 @@ const headingPrimary = document.querySelector(".header__heading-primary");
 // Auto-type
 const typeWriterHeading = function (i) {
   const speed = 145;
-  const txt = "Happy Birthday Ina!";
+  const txt = "Happy Birthday!";
   if (i < txt.length) {
     headingPrimary.innerHTML += txt.charAt(i);
     i++;
